@@ -1,0 +1,10 @@
+.sk {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 385px) {
+    .sk {
+        font-size: 30px !important;
+    }
+}

@@ -30,3 +30,8 @@ box-shadow: 10px 10px 80px 47px rgba(255,255,255,0.5);
         font-size: 30px !important;
     }
 }
+
+.bg {
+    background-image: url('../../../assets/1_low.png');
+    background-position: center;
+}

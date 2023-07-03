@@ -3,7 +3,9 @@
 * {
     /* font-family: 'Amaranth', sans-serif; */
     color:white;
-    background-color: black !important;
+}
+body {
+    background-color: black;
 }
 
 

@@ -1,6 +1,6 @@
 # AngularPortfolio
 
-This is my personal portfolio built in Angular, Hosted in Firebase.
+This is my personal portfolio built in Angular and Three js, Hosted in Firebase.
 
 Deployment Link
 

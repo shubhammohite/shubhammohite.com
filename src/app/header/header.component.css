@@ -3,6 +3,10 @@
     font-size: 50px;
 }
 
+.navbar {
+    z-index: 9999;
+}
+
 @media screen and (max-width: 385px) {
     .sk {
         font-size: 30px !important;

@@ -1,7 +1,4 @@
 
-  
- 
-  
   .sk {
     font-family: 'Sacramento', sans-serif;
     font-size: 50px;
@@ -15,6 +12,12 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
+
+.tl-content {
+  border-radius: 10px !important;
+  margin-bottom: 15px;
+  background-color: #424243 !important;
 }
 
 @media screen and (max-width:768px) {
@@ -44,7 +47,7 @@ p {
   }
   
   .tl-body {
-    /* padding-bottom:1rem; */
+    padding-bottom:1rem;
     margin:0px !important;
   }
   
@@ -57,7 +60,7 @@ p {
     display: grid;
     
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
   }
   
   .tl-title {

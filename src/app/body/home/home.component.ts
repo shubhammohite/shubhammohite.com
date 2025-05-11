@@ -100,7 +100,7 @@ export class HomeComponent implements AfterViewInit {
     //* Scene
     this.scene = new THREE.Scene();
     this.loaderGLTF.load('assets/untitled.gltf', (gltf: GLTF) => {
-      
+
       this.model = gltf.scene.children[0];
       console.log(this.model);
       this.model.scale.set(.4,.4,.4)
@@ -109,21 +109,6 @@ export class HomeComponent implements AfterViewInit {
       this.model.position.multiplyScalar(-1);
       this.scene.add(this.model);
     });
-
-    // this.fbxLoader.load(
-    //   'assets/sanjay.fbx',
-    //   (object) => {
-    //     console.log(object);
-    //     object.position.set(0,0,0);
-    //     // this.scene.add(object);
-    //   },
-    //   (xhr) => {
-    //     console.log((xhr.loaded / xhr.total) * 100 + '% loaded')
-    //   },
-    //   (error) => {
-    //     console.log(error)
-    //   }
-    // )
 
     //*Camera
     let aspectRatio = this.getAspectRatio();
@@ -161,7 +146,7 @@ export class HomeComponent implements AfterViewInit {
     return this.canvas.clientWidth / this.canvas.clientHeight;
   }
 
-  
+
 
   /**
  * Start the rendering loop
@@ -195,5 +180,5 @@ export class HomeComponent implements AfterViewInit {
     this.startRenderingLoop();
     this.createControls();
   }
-  
+
 }
